@@ -94,6 +94,7 @@ p{
   }
 
   .card h3{
+    font-family: 'Montserrat', sans-serif;
     font-weight: 700;
     margin-top: 2rem;
   }
@@ -113,9 +114,14 @@ p{
   }
 
   .small-about{
-    margin-top: 5rem;
-    background-color: #F2B6A0;
-    height: 450px;
+  margin-top: 3rem;
+  position: relative;
+  min-height: 200px;
+  background: url('../img/image4.jpg');
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  text-align: center;
+  color: #fff;
   }
   .small-about .heading{
     margin-top: 3rem;
@@ -124,21 +130,23 @@ p{
   .small-about .heading h4{
     font-size: 3rem;
     font-weight: 700;
-    color: #A64E2E;
+    color: #ffff;
     
   }
 
   .social_icons {
-    float: right;
-    color: #A64E2E;
+    
     margin-top: 20px;
     list-style: none;
     display: flex;
+    justify-content: center;
+    margin: 0 auto;
     font-size: 2rem;
+    
     
   }
   .social_icons a {
-    color: #333;
+    color: #fff;
     margin-left: 10px;
     
     }
@@ -147,3 +155,34 @@ p{
     color: #A64E2E;}
 
     
+    
+@media (min-width: 576px) { 
+  
+  .card{
+  display: none;
+  }
+  .carousel-item{
+    height:100%;
+  }
+   }
+    
+
+
+
+@media (max-width: 576px) { 
+  
+  .card{
+  display: none;
+  }
+ 
+.carousel-item{
+  height:100%;
+}
+.py-5 {
+  padding-top: 0rem!important;
+   }
+
+   .small-about .heading{
+    margin-top: 3rem!important;
+  }
+}
