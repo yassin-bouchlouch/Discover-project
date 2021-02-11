@@ -1,10 +1,22 @@
 .body{
-  background-image: url('../img/image4.jpg');
+  background-color: #F2B6A0!important;
   background-repeat: no-repeat;
   text-align: center;
 }
+
+p{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+}
 .navbar{
   background-color: #fff7f4!important;
+}
+
+.navbar .navbar-brand{
+  font-family: 'Playfair Display', serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #A64E2E;
 }
 
 .navbar .nav-link {
@@ -12,6 +24,9 @@
   text-transform: uppercase;
   padding-left: 1rem!important;
   padding-right: 1rem!important;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  color: #A64E2E;
 
 }
 
@@ -20,7 +35,17 @@
 }
 
 .carousel-item{
-  height:450px;
+  height:550px;
+}
+
+.carousel-inner .carousel-item h5{
+  font-family: 'Playfair Display', serif;
+  font-weight: 500;
+  font-size: 5rem;
+  letter-spacing: .3rem;
+  text-transform: uppercase;
+  align-self: center;
+
 }
 
 .carousel-image-1{
@@ -57,8 +82,68 @@
   } */
 
   #home-icons i{
-    background-color: #fcc0a4;
-    padding: 2rem;
-    border-radius: 999px;
+   margin-top: 50px;
     
   }
+  .card{
+    background-color: #F2B6A0;
+    width: 300px;
+    height: 300px;
+    border-radius: 15px;
+    margin: 2rem;
+  }
+
+  .card h3{
+    font-weight: 700;
+    margin-top: 2rem;
+  }
+
+ 
+
+
+  #home-heading h1{
+    margin-bottom: 2rem;
+    color: #D97855;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+  }
+
+  #home-heading p{
+    color: #A64E2E;
+  }
+
+  .small-about{
+    margin-top: 5rem;
+    background-color: #F2B6A0;
+    height: 450px;
+  }
+  .small-about .heading{
+    margin-top: 3rem;
+  }
+
+  .small-about .heading h4{
+    font-size: 3rem;
+    font-weight: 700;
+    color: #A64E2E;
+    
+  }
+
+  .social_icons {
+    float: right;
+    color: #A64E2E;
+    margin-top: 20px;
+    list-style: none;
+    display: flex;
+    font-size: 2rem;
+    
+  }
+  .social_icons a {
+    color: #333;
+    margin-left: 10px;
+    
+    }
+ 
+  .social_icons a:hover {
+    color: #A64E2E;}
+
+    
